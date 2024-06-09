@@ -1,10 +1,9 @@
 ---
-import { SITE } from 'astrowind:config';
+// import { SITE } from 'astrowind:config';
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  <!-- <img src="../../public/assets/logo/logo.png" alt="" /> -->
-  🚀 {SITE?.name}
-</span>
+<div class="ml-2 rtl:ml-0 rtl:mr-2">
+  <img src="/assets/logo/logo.svg" alt="logo" class="w-full dark:hidden" />
+  <img src="/assets/logo/logo-white.svg" alt="logo" class="w-full hidden dark:block" />
+  <!-- 🚀 {SITE?.name} -->
+</div>
