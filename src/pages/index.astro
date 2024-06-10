@@ -12,6 +12,8 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
+import stepsImage from '../../public/assets/steps/steps-01.jpg';
+
 const metadata = {
   title: 'Jhonny Aponza - Keynote Speaker and Marketing Facilitator',
   ignoreTitleTemplate: true,
@@ -227,20 +229,20 @@ const metadata = {
       {
         title: 'Paso 1: <span class="font-medium">Identidad</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
+          'Trabajaremos juntos para identificar tus valores, misión y propuesta única de valor, asegurándonos de que estos elementos se comuniquen de manera coherente en todos tus canales.',
+        icon: 'tabler:fingerprint',
       },
       {
         title: 'Paso 2: <span class="font-medium">Visibilidad</em>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
+          'Juntos, identificaremos las plataformas y canales más adecuados para tu audiencia, optimizando tu presencia en redes sociales, blogs y otros medios digitales.',
+        icon: 'tabler:eye',
       },
       {
         title: 'Paso 3: <span class="font-medium">Rentabilidad</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
+          'Trabajaremos en conjunto para desarrollar estrategias que impulsen tus ingresos y te posicionen como un activo valioso en tu industria. Identificaremos oportunidades para monetizar tu marca personal.',
+        icon: 'tabler:currency-dollar',
       },
       {
         title: 'Listo!',
@@ -248,7 +250,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      src: stepsImage,
       alt: 'Steps image',
     }}
   />
