@@ -11,7 +11,7 @@ metadata:
   title:
     default: Jhonny Aponza
     template: '%s — Jhony Aponza'
-  description: "\U0001F680 Keynote Speaker and Marketing Facilitator."
+  description: "\U0001F680 Keynote Speaker and Marketing Facilitator"
   robots:
     index: true
     follow: true

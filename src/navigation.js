@@ -1,10 +1,10 @@
-import { getPermalink, getBlogPermalink, getHomePermalink } from './utils/permalinks';
+import { getPermalink, getHomePermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
     {
       text: 'Inicio',
-      href: getHomePermalink('/'),
+      href: getHomePermalink(),
       /* links: [
         {
           text: 'SaaS',
@@ -25,8 +25,9 @@ export const headerData = {
       ], */
     },
     {
-      text: 'Pages',
-      links: [
+      text: 'Academia',
+      href: getPermalink('/#features'),
+      /* links: [
         {
           text: 'Features (Anchor Link)',
           href: getPermalink('/#features'),
@@ -55,11 +56,12 @@ export const headerData = {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
         },
-      ],
+      ], */
     },
     {
-      text: 'Landing',
-      links: [
+      text: 'Método',
+      href: getPermalink('/#steps'),
+      /* links: [
         {
           text: 'Lead Generation',
           href: getPermalink('/landing/lead-generation'),
@@ -84,11 +86,16 @@ export const headerData = {
           text: 'Subscription',
           href: getPermalink('/landing/subscription'),
         },
-      ],
+      ], */
+    },
+    {
+      text: 'Testimonios',
+      href: getPermalink('/#features2'),
     },
     {
       text: 'Blog',
-      links: [
+      href: getPermalink('/#blog'),
+      /* links: [
         {
           text: 'Blog List',
           href: getBlogPermalink(),
@@ -109,66 +116,58 @@ export const headerData = {
           text: 'Tag Page',
           href: getPermalink('astro', 'tag'),
         },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
+      ], */
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Productos',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Cursos', href: '#' },
+        { text: 'Conferencias', href: '#' },
+        { text: 'Mentorías', href: '#' },
+        { text: 'Asesorías', href: '#' },
+        { text: 'Talleres', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Plataformas',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Spotify', href: '#' },
+        { text: 'YouTube', href: '#' },
+        { text: 'Reuniones Online', href: '#' },
+        { text: 'Congresos', href: '#' },
+        { text: 'Aliados', href: '#' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Soporte',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Documentación', href: '#' },
+        { text: 'Foros de la Comunidad', href: '#' },
+        { text: 'Servicios Profesionales', href: '#' },
+        { text: 'Habilidades', href: '#' },
+        { text: 'Estatus', href: '#' },
       ],
     },
     {
-      title: 'Company',
+      title: 'Marca',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'Acerca', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Carreras', href: '#' },
+        { text: 'Prensa', href: '#' },
+        { text: 'Impacto Social', href: '#' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Términos', href: getHomePermalink() },
+    { text: 'Política de Privacidad', href: getHomePermalink() },
   ],
   socialLinks: [
     {
@@ -187,6 +186,6 @@ export const footerData = {
   ],
   footNote: `
     <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> | <a class="text-blue-600 underline dark:text-muted" href="https://andreszapata.me/">andreszapata.me</a> · All rights reserved.
+    Hecho por <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> | <a class="text-blue-600 underline dark:text-muted" href="https://andreszapata.me/">andreszapata.me</a> · Todos los derechos reservados.
   `,
 };
