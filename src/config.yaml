@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Jhonny Aponza
+    template: '%s — Jhony Aponza'
+  description: "\U0001F680 Keynote Speaker and Marketing Facilitator."
   robots:
     index: true
     follow: true
