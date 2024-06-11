@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-05-31T00:00:00Z
+publishDate: 2024-05-27T00:00:00Z
 author: Jhonny Aponza
 title: La inteligencia artificial y la insustituible marca personal
 excerpt: En la era de la IA, la marca personal basada en autenticidad, creatividad, ética e inteligencia emocional sigue siendo insustituible.

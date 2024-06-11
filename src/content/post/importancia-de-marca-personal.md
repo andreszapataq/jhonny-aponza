@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-05-27T00:00:00Z
+publishDate: 2024-05-31T00:00:00Z
 author: Jhonny Aponza
 title: La importancia de la marca personal para los vendedores y las organizaciones
 excerpt: La marca personal es crucial para vendedores, equipos comerciales y empresas, mejorando relaciones, cohesión, reputación corporativa y retención de talento.

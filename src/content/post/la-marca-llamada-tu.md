@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-06-04T00:00:00Z
 author: Tom Peters
-title: La marca llamada Tú
+title: 'La marca llamada Tú: es el nuevo mundo de las marcas'
 excerpt: Cada persona debe gestionar su marca personal como CEO de "YO, S.A." para sobresalir y prosperar en el entorno laboral competitivo.
 image: https://images.unsplash.com/photo-1517816428104-797678c7cf0c?q=80&w=3326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags:
