@@ -46,6 +46,8 @@ export default defineConfig({
           'voice-presentation',
           'business-contact',
           'database',
+          'businesswoman',
+          'businessman',
         ],
       },
     }),
